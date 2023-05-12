@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Template",
+  "version": "1.0",
+  "description": "A simple template of a browser extension",
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "main.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
